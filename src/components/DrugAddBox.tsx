@@ -29,7 +29,6 @@ const DrugAddBox = () => {
     };
 
     dispatch(ADD_MEDICINE({ newDrug: drugData }));
-    console.log(values);
   };
   return (
     <div className="w-full h-max shadow rounded p-3 my-4 bg-zinc-100">
